@@ -1,0 +1,20 @@
+{
+  "name": "node-chuck-norris-api",
+  "version": "1.0.0",
+  "description": "Node Chuck Norris Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Chi Yin Li",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gh": "^2.8.6",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.2"
+  }
+}

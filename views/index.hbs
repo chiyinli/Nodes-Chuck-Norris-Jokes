@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Chuck Norris Api</title>
+</head>
+<body>
+    <h1>Welcome to the Chuck Norris Api Jokes</h1>
+
+    <h2>Choose the Joke Category</h2>
+
+    <form action="/api/jokes" method="POST">
+        <input type="text" name="jokeCategory"/>
+        <button type="submit">Get Joke</button>
+
+    </form>
+        {{#if joke}}
+
+        <h2>The Joke</h2>
+
+        <h4>{{ joke }}</h4>
+
+        {{/if}}
+
+    <script src="/main.js"></script>
+</body>
+</html>
